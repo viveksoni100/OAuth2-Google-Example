@@ -11,4 +11,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'oauth-frontend';
+
+  callOauthGoogleAPI() {
+    console.log('clicked!');
+    window.location.href = 'http://localhost:8080/OAuth/signInOAuthGoogle';
+  }
 }
