@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 
+/**
+ * @author viveksoni
+ */
+
 @RestController
 @RequestMapping(name = "/callback")
 public class CallbackController {
